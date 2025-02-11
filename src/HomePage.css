@@ -1,0 +1,41 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  color: white;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Fotoğraf ile yazılar arasındaki mesafe */
+}
+
+.profile-photo {
+  width: 250px; 
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ff81ac;
+  margin-left: -50px; /* Hafif sola kaydırdık */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #e76e98;
+}
+
+.bio {
+  font-size: 1.3rem;
+  color: #b3b3b3;
+}
