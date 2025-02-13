@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/deneme-portfolio/', // GitHub Pages için doğru base ayarı
+  base: './', // ÖNEMLİ! Dosya yollarını düzeltir
 });
