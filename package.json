@@ -1,13 +1,13 @@
 
 {
+  "homepage": "https://iilknursert.github.io/deneme-portfolio",
   "name": "-lknur-portfolio",
   "private": true,
-  "homepage": "https://iilknursert.github.io/deneme-portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
